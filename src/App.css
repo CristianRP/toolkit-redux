@@ -34,7 +34,17 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 2em;
+}
+
+.card button:first-child {
+  margin-top: 0px;
+}
+
+.card button {
+  margin-top: 4px;
 }
 
 .read-the-docs {
